@@ -29,10 +29,13 @@ repository: zacharywuhankinson/zacharywuhankinson.github.io
 # github_username:  jekyll
 
 # Build settings
-# remote_theme: pages-themes/primer@v0.6.0
-remote_theme: pages-themes/slate@v0.2.0
-# theme: minima
-# theme: jekyll-theme-primer
+# remote_theme: pages-themes/primer@v0.6.0 # pretty basic, but it works
+# remote_theme: pages-themes/slate@v0.2.0 # only has the default layout, which is annoying
+# theme: just-the-docs # works, is good, should probably use
+# theme: minimal-mistakes-jekyll # seems to only have the default layout...
+theme: jekyll-theme-so-simple # ngl I really like this one. I might use it. It doesn't have the automatic sitemapping built in, but maybe we can add that...
+# theme: minima # the default, pretty basic
+# theme: jekyll-theme-primer # works
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
