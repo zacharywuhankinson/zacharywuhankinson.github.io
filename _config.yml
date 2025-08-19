@@ -22,7 +22,7 @@ title: Zachary R. Wu Hankinson
 email: zacharywuhankinson@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Hello world. This site is a work in progress. Please excuse the mess.
-baseurl: /docs/ # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: https://zacharywuhankinson.github.io # the base hostname & protocol for your site, e.g. http://example.com
 repository: zacharywuhankinson/zacharywuhankinson.github.io
 # twitter_username: jekyllrb
@@ -32,8 +32,8 @@ repository: zacharywuhankinson/zacharywuhankinson.github.io
 # remote_theme: pages-themes/primer@v0.6.0 # pretty basic, but it works
 # remote_theme: pages-themes/slate@v0.2.0 # only has the default layout, which is annoying
 # theme: just-the-docs # works, is good, should probably use
-# theme: minimal-mistakes-jekyll # seems to only have the default layout...
-remote_theme: mmistakes/so-simple-theme@3.2.0 # ngl I really like this one. I might use it. It doesn't have the automatic sitemapping built in, but maybe we can add that...
+remote_theme: mmistakes/minimal-mistakes@4.27.3 #
+# remote_theme: mmistakes/so-simple-theme@3.2.0 # ngl I really like this one. I might use it. It doesn't have the automatic sitemapping built in, but maybe we can add that...
 # theme: minima # the default, pretty basic
 # theme: jekyll-theme-primer # works
 plugins:
@@ -45,6 +45,12 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
+  - jekyll-include-cache
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: false
 
 include:
   - README.md
