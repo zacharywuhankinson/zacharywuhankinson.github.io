@@ -31,7 +31,11 @@ repository: zacharywuhankinson/zacharywuhankinson.github.io
 # Build settings
 # remote_theme: pages-themes/primer@v0.6.0 # pretty basic, but it works
 # remote_theme: pages-themes/slate@v0.2.0 # only has the default layout, which is annoying
+# remote_theme: daviddarnes/alembic@main # untested, looks alright
+# remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0 # untested
 # theme: just-the-docs # works, is good, should probably use
+# remote_theme: mmistakes/jekyll-theme-skinny-bones@master # not tested, but same maker as minimal mistakes
+# remote_theme: mmistakes/jekyll-theme-basically-basic@1.4.5 # not tested, but same maker as minimal mistakes
 # remote_theme: mmistakes/minimal-mistakes@4.27.3 #
 remote_theme: mmistakes/so-simple-theme@3.2.0 # ngl I really like this one. I might use it. It doesn't have the automatic sitemapping built in, but maybe we can add that...
 # theme: minima # the default, pretty basic
